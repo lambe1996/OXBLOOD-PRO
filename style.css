@@ -1,0 +1,79 @@
+body{
+  background-image: url(bg-content.jpg);
+  background-size: cover;
+  height: 1080px;
+  }
+
+.pr_header{
+	background-image: url("top-header.png");
+	background-size: cover;
+}
+.pr_top_header{
+	padding:  4em 0 2em 6em;
+}
+.pr_content{
+	background-image: url("bg-content.jpg");
+	background-size: cover;
+}
+.pr_title{
+	color: white;
+}
+.pr_sub_title{
+	color: white;
+	font-size: 1.3em;
+}
+.pr_m{
+	margin-top: 15%;
+}
+.carousel-item img{
+	max-height: 700px;
+	max-width: 90%;
+}
+.carousel-indicators [data-bs-target]{
+	width: 20px;
+	height: 20px;
+	border-radius:  50%;
+}
+.nav-item{
+	margin-right:  5%;
+}
+.nav-link{
+	color: #150302;
+}
+.sec-thumbs img{
+	max-height:  50% !important;
+}
+.third-thumbs img{
+	margin-top:  55%;
+	max-height: 50%;
+}
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
